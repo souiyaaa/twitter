@@ -41,6 +41,7 @@ const Post = () => {
     const handleBookmark = () => {
         isBookmarked(!bookmarkState)
     }
+    //here we will change the icon based on the state
 
     const changeBookmark = () => {
         if (bookmarkState) {
